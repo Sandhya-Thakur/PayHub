@@ -8,10 +8,11 @@ const Navbar = () => {
       <div className="flex items-center">
         <Link href="/" className="flex items-center">
           <Image
-            src={"/payHubLogo.png"}
+            src={"/logopayhub2.png"}
             alt={"payHubLogo"}
-            width={150}
-            height={150}
+            width={80}
+            height={40}
+            className="rounded-b-full"
           />
         </Link>
       </div>
